@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- CHATBOT -->
+<script  type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="5f7df951-53df-4772-bf0a-74b6632c1c61";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../nav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <title>Blogs and reviews</title>
+
+   
+</head>
+<body>
+
+    <!-- Navbar start -->
+    <section class = "m-0 sticky-top px-0">
+    <div class="container-fluid px-0" >
+        <div class="container-fluid topbar d-none d-lg-block" style="background-color: #d2a9e3;">
+            <div class="container" >
+                <div class="topbar-top d-flex justify-content-between flex-lg-wrap">
+                
+                    </div>
+                    <div class="top-link flex-lg-wrap" >
+                        <div class="d-flex icon">
+                            <p class="mb-0 text-white me-4 fw-bold" style="font-family: century gothic;">FOLLOW US:</p>
+                            <a href="https://www.facebook.com/personalisedbyjams" class="me-2 text-white"><i class="fab fa-facebook-f text-body link-hover"></i></a>
+                            <a href="" class="me-2"><i class="fab fa-twitter text-body link-hover"></i></a>
+                            <a href="https://www.instagram.com/personalisedbyjams?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="me-2"><i class="fab fa-instagram text-body link-hover"></i></a>
+                            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.etsy.com%2Fau%2Fshop%2FPersonalisebyJams%3Fref%3Dprofile_header%26fbclid%3DIwZXh0bgNhZW0CMTAAAR1xQ2WnF237qJwHC3554EQpZHlC8_AGJ8S5FqkMZl_V3YiKp7WDCzFshzI_aem_AbJbMM6ZKIJ0WN6DQehRIa-ySJqQDF70hVmIkngriPWPbWo-_XKYyXiMC-UIK_QAJpyL0xsJlYgoxpT2lsV2tjRp&h=AT2KPAa1jhkgIgZU4bLUmS6JjC83DLGsXSUzG9fBVPplnsS915ZbjLkpzPok0Ov13Oeprlr4YZegVEbYeKc9N2hCg--7arT1ENBplD_D1Qw2CDPAWFOYmg7QzaytVL2Efe-fWg" class="me-2"><i class="bi bi-shop-window text-body link-hover"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "sticky-top px-0">
+        <div class="container-fluid" style="background-color: #faecf5;">
+            <div class="container">
+                <nav class="navbar navbar-expand-xl ">
+                    <a href="../index.html" class="navbar-brand mt-3">
+                        <div class="container-fluid">
+                            <span><img src ="../assets/banner-new.jpg" class="container-fluid" style="height: 75px"></span>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        
+                    </button>
+                    <div class="collapse navbar-collapse  py-3" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto border-top">
+                            <a href="../index.html" class="nav-item nav-link ">Home</a>
+                            
+                            <div class="nav-item dropdown">
+                                <a href="./Personnel.html" class="nav-link">About <i class="bi bi-caret-down-fill"></i></a>
+                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                    <a href="./about.html" class="dropdown-item">The Company</a>
+                                    <a href="./Personnel.html" class="dropdown-item">Personnel</a>
+                                </div>
+                            </div>
+                            <a href="./event.html" class="nav-item nav-link ">Events</a>
+                            <a href="./reviews.html" class="nav-item nav-link active">Reviews</a>
+                            <a href="./contact.html" class="nav-item nav-link">Contact us</a>
+                           
+                        </div>
+                        <a href="./store-menu.html" class="cart-size">
+                            <span><i class="bi bi-bag-heart-fill cart-hover"></i></span>
+                          </a>
+                        
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Breadcrumb Start -->
+<div  class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+       
+          <li class="breadcrumb-item active" aria-current="page">Reviews</li>
+        </ol>
+      </nav>
+    </div>
+    <!-- Breadcrumb End -->
+
+
+    <!-- REVIEW CARD -->
+            <div id = "card-review">
+                <div class="col-lg-7 col-xl-11 mt-0 p-5 m-5" style="align-items: center;"> 
+                    <div class="position-relative overflow-hidden rounded mt-2">
+                        <p class="display-5 text-dark mb-5 fw-bold" style=" text-align: center;">Customer Reviews</p>
+                        </p>
+
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                              <div class="card h-70">
+                                <div class="card-body">
+                                    <div class = "card-img ">
+                                        <img src="../assets/review1.jpg" style=" border-radius: 1000px;">
+                                    </div>
+                                  <h5 class="card-title "><i class="bi bi-chat-left-quote"></i> Anne Curtiz</h5>
+                                  <div class ="p-3 review-icon">
+                                        <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-half"></i>
+                                  </div>
+                                  <p class=" small card-text">The turnaround time was surprisingly fast, and the item arrived beautifully packaged, ready to be gifted. 
+                                    Overall, I highly recommend Personalised by Jams for anyone looking for high-quality, personalized gifts.Superior craftsmanship, and thoughtful presentation makes it a standout choice.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                             <div class="col">
+                              <div class="card h-70">
+                                <div class="card-body">
+                                    <div class = "card-img ">
+                                        <img src="../assets/review2.jpg" style=" border-radius: 1000px;">
+                                    </div>
+                                  <h5 class="card-title "><i class="bi bi-chat-left-quote"></i> Sean Jacob Veluz</h5>
+                                  <div class ="p-3 review-icon">
+                                        <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>
+                                  </div>
+                                  <p class=" small card-text">The customer service was exceptional. Jamile was attentive and responsive, ensuring that my order was completed to perfection. 
+                                    Whether you're looking for a special gift for a loved one or a unique keepsake for yourself, Personalised by Jams offers a delightful selection of items that are sure to impress. Highly recommended!</p>
+                                </div>
+                              </div>
+                            </div>
+
+                             <div class="col">
+                              <div class="card h-70">
+                                <div class="card-body">
+                                    <div class = "card-img ">
+                                        <img src="../assets/review3.jpg" style=" border-radius: 1000px; width: 100px;">
+                                    </div>
+                                  <h5 class="card-title "><i class="bi bi-chat-left-quote"></i> Alian Palaganas</h5>
+                                  <div class ="p-3 review-icon">
+                                        <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>
+                                  </div>
+                                  <p class=" small card-text">I recently purchased a personalized gift from Personalised by Jams, and I couldn't be happier with the product and service. Based in Melbourne, Australia, this small business owned by Jamile Martin Bobadilla specializes in crafting unique, personalized items for any occasion.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card h-70">
+                                  <div class="card-body">
+                                      <div class = "card-img ">
+                                          <img src="../assets/review4.jpg" style=" border-radius: 1000px; width: 100px;">
+                                      </div>
+                                    <h5 class="card-title "><i class="bi bi-chat-left-quote"></i> John Peter Arcega</h5>
+                                    <div class ="p-3 review-icon">
+                                          <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class=" small card-text">I recently purchased a personalized gift from Personalised by Jams, and I couldn't be happier with the product and service. Based in Melbourne, Australia, this small business owned by Jamile Martin Bobadilla specializes in crafting unique, personalized items for any occasion.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="card h-70">
+                                  <div class="card-body">
+                                      <div class = "card-img ">
+                                          <img src="../assets/review5.jpg" style=" border-radius: 1000px; width: 100px;">
+                                      </div>
+                                    <h5 class="card-title "><i class="bi bi-chat-left-quote"></i> Ry Velasco</h5>
+                                    <div class ="p-3 review-icon">
+                                          <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-half"></i>
+                                    </div>
+                                    <p class=" small card-text">I recently purchased a personalized gift from Personalised by Jams, and I couldn't be happier with the product and service. Based in Melbourne, Australia, this small business owned by Jamile Martin Bobadilla specializes in crafting unique, personalized items for any occasion.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="card h-70">
+                                  <div class="card-body">
+                                      <div class = "card-img ">
+                                          <img src="../assets/review6.jpg" style=" border-radius: 1000px; width: 100px;">
+                                      </div>
+                                    <h5 class="card-title "><i class="bi bi-chat-left-quote"></i> Jammy Sibal</h5>
+                                    <div class ="p-3 review-icon">
+                                          <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class=" small card-text">I recently purchased a personalized gift from Personalised by Jams, and I couldn't be happier with the product and service. Based in Melbourne, Australia, this small business owned by Jamile Martin Bobadilla specializes in crafting unique, personalized items for any occasion.
+                                  </div>
+                                </div>
+                              </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            
+<!-- CAROUSEL
+    
+<div class="container pt-5">
+    <div class="row g-4 ">
+        <div class="col-lg-7 col-xl-12 mt-0">
+            
+                    <div class="cards-wrapper">
+                    <div class="card">
+
+                      <div class="card-body col-10">
+                        <div class="">
+                            <div>
+                                <p class="text-dark fw-bold" style="font-size: 0.8rem">@johnlord_lAngMaLaKaS</p>
+                                <small><p class="text-dark" style="font-family: century gothic; font-style: italic; font-size: 0.7rem;"><i class="bi bi-chat-right-quote"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></small>
+                                <small><p class="text-dark" style="font-size: 0.7rem;"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></p></small>
+                            </div>
+                        <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="LocalNews.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                      </div>
+                    </div>
+                    <div class="card d-none d-md-block">
+                        <div class="card-img-overlay">
+                            <h6><span class="badge badge-secondary bg-danger">Hot Topic</h6>
+                        </div>
+                      <img src="assets/latest.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        
+                        <h6 class="card-title text-danger m-3 fw-bold">Senators probe Tarlac Pogo for ‘spy ops’; mayor grilled</h5>
+                        <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="LocalNewsCurrent.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                      </div>
+                    </div>
+                    <div class="card d-none d-md-block">
+                      <img src="assets/sec1_flash.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h6 class="card-title text-danger m-3 fw-bold">PH to intensify patrols in West PH Sea</h5>
+                        <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="LocalNewsFlash.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                      </div>
+                    </div>
+                    <div class="card d-none d-md-block">
+                        <img src="assets/sec1_incident.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger m-3 fw-bold"> 15 Killed After Massive Fire At 2-Storey House In Philippines</h5>
+                            <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="LocalNewsIncident.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                          </div>
+                      </div>
+                     
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="cards-wrapper">
+                      <div class="card">
+                        <img src="assets/sec2_elnino.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger m-3 fw-bold">PAGASA: El Niño starting to weaken, La Niña may occur.</h6>
+                            <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="WeatherPAGASA.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                        </div>
+                      </div>
+                      <div class="card d-none d-md-block">
+                        <div class="card-img-overlay">
+                            <h6><span class="badge badge-secondary bg-danger">Just in</h6>
+                        </div>
+                        <img src="assets/sec2_current.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger m-3 fw-bold">PAGASA: Up to two cyclones likely in Philippines this May</h6>
+                            <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="Weather2.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                        </div>
+                      </div>
+                      <div class="card d-none d-md-block">
+                        <img src="assets/sec2_storm.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger m-3 fw-bold">PAGASA forecasts 1 to 2 storms in May</h6>
+                            <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="Weather3.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                        </div>
+                      </div>
+                      <div class="card d-none d-md-block">
+                        <img src="assets/sec2.zam.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger m-3 fw-bolds fw-bold">Heat index in Zambales’ Iba town soars to 53°C on April 28</h6>
+                            <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="Weather4.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="cards-wrapper">
+                      <div class="card">
+                        <img src="assets/sec3_goodvibes2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger m-3 fw-bold">KC Concepcion asks mom Sharon to "forgive each other"</h5>
+                            <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="showbiz-kc.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                        </div>
+                      </div>
+                      <div class="card d-none d-md-block">
+                        <img src="assets/sec3_goodvibes1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger m-3 fw-bold">Sarah Geronimo at Billboard Women In Music Awards.</h5>
+                            <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="showbiz-sarah.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                          </div>
+                      </div>
+                      <div class="card d-none d-md-block">
+                        <img src="assets/sec3_goodvibes3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger m-3 fw-bold">Alden Richards on ‘Hello, Love, Goodbye</h5>
+                            <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="showbiz-alden.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                        </div>
+                      </div>
+                      <div class="card d-none d-md-block">
+                        <img src="assets/sec3_goodvibes4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger m-3  fw-bold">Heart Evangelista heartbroken after losing ‘4th angel’</h5>
+                            <p class="card-text m-3" style="text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="showbiz-heart.html" class="btn btn-danger align-right"><i class="bi bi-newspaper"></i> Read more</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+            </div>
+    </div>
+</div> -->
+
+<!-- Main Post Section Start -->
+
+<div class="container-fluid m-0">
+    <div class="container py-5">
+        <div class="row g-4 ">
+            <div class="col-lg-7 col-xl-8 mt-0">
+                <div class="clearfix">
+                   
+                    <p class="display-6 text-darker fw-bold"> Blog Features</p>
+                </div>
+                <hr>
+
+                <div class="col-lg-7 col-xl-8 mt-0" >
+                    <img src = "../assets/review5.jpg" style="height: 100px; border-radius: 100px;">
+                </div>
+
+                <div class="col-lg-7 col-xl-8 mt-0" >
+                    <h3 class= "blogger "></i> Ry Velasco</h3>
+                    <p class="text-muted fw-bold time-stamp"><i class="bi bi-link-45deg"></i> <span style="color: #d2a9e3; font-weight: bold;"> www.ryvelasco.com</span> <span style="font-size: smaller;">| <i class="bi bi-clock-fill"></i> 05:55 AM May 13, 2024 </span></p>
+
+                </div>
+
+                <div class="col-lg-7 col-xl-12 mt-5" >
+                    <p class="mt-3 mb-4" style="text-align: justify;">I recently purchased a personalized gift from Personalised by Jams, and I couldn't be happier with the product and service. Based in Melbourne, Australia, this small business owned by Jamile Martin Bobadilla specializes in crafting unique, personalized items for any occasion.</p>
+                    <p class="mt-3 mb-4" style="text-align: justify;">The quality of the craftsmanship is outstanding. The engraving was precise, and the materials used felt premium and durable. What truly stood out was the attention to detail—every aspect of the gift was customized exactly to my specifications, making it a truly one-of-a-kind item.</p>
+                    <p class="mt-3 mb-4" style="text-align: justify;">The customer service was exceptional. Jamile was attentive and responsive, ensuring that my order was completed to perfection and delivered on time. The packaging was also thoughtful and elegant, adding an extra touch of care to the overall experience.</p>
+                </div>
+                <hr>
+
+                <div class="col-lg-7 col-xl-8 mt-0" >
+                    <img src = "../assets/blog2.jpg" style="height: 100px; border-radius: 100px;">
+                </div>
+
+                <div class="col-lg-7 col-xl-8 mt-0" >
+                    <h3 class= "blogger "></i> Rei Germar</h3>
+                    <p class="text-muted fw-bold time-stamp"><i class="bi bi-link-45deg"></i> <span style="color: #d2a9e3; font-weight: bold;"> www.reigermar.com</span> <span style="font-size: smaller;">| <i class="bi bi-clock-fill"></i> 05:55 AM May 13, 2024 </span></p>
+
+                </div>
+
+                <div class="col-lg-7 col-xl-12 mt-5" >
+                    <p class="mt-3 mb-4" style="text-align: justify;">If you're looking for unique and thoughtful gifts, Personalised by Jams in Melbourne, Australia, is the perfect place. I recently ordered a personalized mug and a custom-engraved photo frame for a special occasion, and I couldn’t be happier with the results.</p>
+                    <p class="mt-3 mb-4" style="text-align: justify;">The quality of the items is outstanding. The mug features a vibrant, long-lasting print that has survived multiple dishwasher cycles without fading. The photo frame, crafted from high-quality wood, showcases a beautifully detailed engraving that adds a personal touch to any home decor.</p>
+                    <p class="mt-3 mb-4" style="text-align: justify;">What sets Personalised by Jams apart is their exceptional customer service. Jamile Martin Bobadilla, the owner, is incredibly attentive and ensures every detail is perfect. The ordering process was smooth, and the delivery was prompt.</p>
+                    <p class="mt-3 mb-4" style="text-align: justify;">Overall, Personalised by Jams offers high-quality, beautifully crafted personalized gifts that make every occasion special. Highly recommended!</p>
+                </div>
+                <hr>
+
+                <div class="col-lg-7 col-xl-8 mt-0" >
+                    <img src = "../assets/blog3.jpg" style="height: 100px; border-radius: 100px;">
+                </div>
+
+                <div class="col-lg-7 col-xl-8 mt-0" >
+                    <h3 class= "blogger "></i> David Guison</h3>
+                    <p class="text-muted fw-bold time-stamp"><i class="bi bi-link-45deg"></i> <span style="color: #d2a9e3; font-weight: bold;"> www.davidguison.com</span> <span style="font-size: smaller;">| <i class="bi bi-clock-fill"></i> 05:55 AM May 13, 2024 </span></p>
+
+                </div>
+
+                <div class="col-lg-7 col-xl-12 mt-5" >
+                    <p class="mt-3 mb-4" style="text-align: justify;">The ordering process was straightforward and user-friendly. The website offered a wide range of customization options, allowing me to add personal touches to each gift. Whether it was selecting the perfect font for a name or choosing a color scheme that matched the recipient's taste, the options were both versatile and intuitive.</p>
+                    <p class="mt-3 mb-4" style="text-align: justify;">When the items arrived, I was immediately impressed by the quality of the materials used. Each product felt sturdy and well-made, reflecting the high standards of craftsmanship that Personalised by Jams is known for. The attention to detail was evident in every piece, from the precision of the engraving to the vibrant colors of the printed designs.</p>
+                    <p class="mt-3 mb-4" style="text-align: justify;">The packaging was another highlight. Each gift was carefully wrapped, adding an extra layer of excitement and anticipation for the recipient. It was clear that Jamile and her team put a lot of thought into making the unboxing experience as delightful as the gifts themselves.</p>
+                    <p class="mt-3 mb-4" style="text-align: justify;">Overall, Personalised by Jams exceeded my expectations. The personalized items not only made perfect, heartfelt gifts but also showcased the exceptional talent and dedication behind this small business. If you're looking for unique, high-quality personalized gifts, I highly recommend giving Personalised by Jams a try. You won't be disappointed!</p>
+                </div>
+                <hr>
+                
+               
+
+        
+                <!-- --------CARD FOR IG --------------->
+                <div>
+                    <section class="container-fluid">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                              <div class="card h-60">
+
+
+                           
+                                          
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                              
+          
+                        </section>
+
+
+                <div>
+                        
+                <div>
+                          
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+
+        <!-- RIGHT SIDEBAR -->
+   
+            <div class="col-lg-5 col-xl-4 ">
+               <div class="bg-color rounded p-4 pt-0">
+                    <div class="row g-4">
+                        <div class="col-12 mt-5">
+                            <div class="d-flex flex-column">
+                                <h4 class ="fw-bold text-white" style="text-align: center;">Here's PBJ best sellers</h4>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-5">
+                                    <div class="overflow-hidden rounded">
+                                        <img src="assets/p1.jpg" class="img-zoomin img-fluid rounded w-100" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="features-content d-flex flex-column">
+                                        <a href="#" class="h6 text-white">Magnetic badge and can opener</a>
+                                        <small><p class = "text-white" style="font-family: century gothic;"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></p> </i> </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-5">
+                                    <div class="overflow-hidden rounded">
+                                        <img src="assets/p2.jpg" class="img-zoomin img-fluid rounded w-100" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="features-content d-flex flex-column">
+                                        <a href="#" class="h6 text-white">Personalised wooden brush</a>
+                                        <small><p class = "text-white" style="font-family: century gothic;"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> </small>
+                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-5">
+                                    <div class="overflow-hidden rounded">
+                                        <img src="assets/p3.jpg" class="img-zoomin img-fluid rounded w-100" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="features-content d-flex flex-column">
+                                        <a href="#" class="h6 text-white">Personalised activiy book for kids</a>
+                                        <small><p class = "text-white" style="font-family: century gothic;"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-5">
+                                    <div class="overflow-hidden rounded">
+                                        <img src="../assets/p4.jpg" class="img-zoomin img-fluid rounded w-100" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="features-content d-flex flex-column">
+                                        <a href="#" class="h6 text-white">Personalised Doll</a>
+                                        <small><p class = "text-white" style="font-family: century gothic;"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-5">
+                                    <div class="overflow-hidden rounded">
+                                        <img src="../assets/p5.jpg" class="img-zoomin img-fluid rounded w-100" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="features-content d-flex flex-column">
+                                        <a href="#" class="h6 text-white">Personalised abaca bag</a>
+                                        <small><p class = "text-white" style="font-family: century gothic;"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="col-12">
+                            <div class="d-flex flex-column">
+                                <h4 class =" border-top py-3 fw-bold text-white" style="text-align: center;">Customer reviews</h4>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="row g-2 align-items-center bg-white rounded p-2 pt-0 mt-2">
+                                    <div class="col-4">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="../assets/review4.jpg" style="border-radius: 100%; height: 80px" class="img-fluid m-1" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="features-content d-flex flex-column">
+                                            <p class="text-dark fw-bold" style="font-size: 0.8rem">John Peter Arcega</p>
+                                            <small><p class="text-dark" style="font-family: century gothic; font-style: italic; font-size: 0.7rem;"><i class="bi bi-chat-right-quote"></i> I recently purchased a personalized gift from Personalised by Jams, and I couldn't be happier with the product and service. Based in Melbourne, Australia, this small business owned by Jamile Martin Bobadilla specializes in crafting unique, personalized items for any occasion.</p></small>
+                                            <small><p class="text-dark" style="font-size: 0.7rem;"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></p></small>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="row g-2 align-items-center bg-white rounded p-2 pt-0 mt-2">
+                                    <div class="col-4">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="../assets/review5.jpg" style="border-radius: 100%; height: 80px" class="img-fluid m-1" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="features-content d-flex flex-column">
+                                            <p class="text-dark fw-bold" style="font-size: 0.8rem">Ry Velasco</p>
+                                            <small><p class="text-dark" style="font-family: century gothic; font-style: italic; font-size: 0.7rem;"><i class="bi bi-chat-right-quote"></i> The turnaround time was surprisingly fast, and the item arrived beautifully packaged, ready to be gifted. Overall, I highly recommend Personalised by Jams for anyone looking for high-quality, personalized gifts.Superior craftsmanship, and thoughtful presentation makes it a standout choice.</p></small>
+                                            <small><p class="text-dark" style="font-size: 0.7rem;"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-half"></i></p></small>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="row g-2 align-items-center bg-white rounded p-2 pt-0 mt-2 blur-bg">
+                                    <div class="col-4">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="assets/review1.jpg" style="border-radius: 100%; height: 80px" class="img-fluid m-1" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="features-content d-flex flex-column">
+                                            <p class="text-dark fw-bold" style="font-size: 0.8rem"> Anne Curtis</p>
+                                            <small><p class="text-dark" style="font-family: century gothic; font-style: italic; font-size: 0.7rem;"><i class="bi bi-chat-right-quote"></i> The turnaround time was surprisingly fast, and the item arrived beautifully packaged, ready to be gifted. Overall, I highly recommend Personalised by Jams for anyone looking for high-quality, personalized gifts.Superior craftsmanship, and thoughtful presentation makes it a standout choice.</p></small>
+                                            <small><p class="text-dark" style="font-size: 0.7rem;"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-half"></i></p></small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        
+                        
+                    </div>
+               </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<footer class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase  fw-bold"><span class=" fw-bold" style="color: #f795bd;"> PBJams </span>Personalised by Jams</h5>
+          <p>
+            Looking for unique and personalized gifts that will make a lasting impression? Look no further than Personalised by Jams! Personalised by Jams is a small business that specializes in creating custom gifts that are perfect for any occasion
+          </p>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase fw-bold" style="color: #f795bd;">LINKS</h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="../index.html" class="text-dark">Home</a>
+            </li>
+            <li>
+              <a href="./about.html" class="text-dark">About</a>
+            </li>
+            <li>
+              <a href="./store-menu.html" class="text-dark">Products & Services</a>
+            </li>
+            <li>
+              <a href="./contact.html" class="text-dark">Contact us</a>
+            </li>
+          
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase fw-bold" style="color: #f795bd;">STAY CONNECTED</h5>
+          <ul class="list-unstyled mb-0">
+            <li><i class="bi bi-facebook"></i>
+              <a href="#!" class="text-dark">Facebook</a>
+            </li>
+            <li><i class="bi bi-instagram"></i>
+              <a href="#!" class="text-dark">Instagram</a>
+            </li>
+            <li><i class="bi bi-linkedin"></i>
+              <a href="#!" class="text-dark">Linkedin</a>
+            </li>
+            <li><i class="bi bi-twitter-x"></i>
+              <a href="#!" class="text-dark">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  </footer>
+</body>
+  
+
+</html>

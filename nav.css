@@ -1,0 +1,395 @@
+body {
+  font-family: century gothic;
+  line-height: 1.6;
+}
+
+/*** Spinner Start ***/
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity.8s ease-out, visibility 0s linear.5s;
+  z-index: 99999;
+}
+
+#spinner.show {
+  transition: opacity.8s ease-out, visibility 0s linear.0s;
+  visibility: visible;
+  opacity: 1;
+}
+
+/*** Spinner End ***/
+
+.back-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: flex;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  z-index: 99;
+}
+
+.fw-thin {
+  font-weight: 100;
+}
+
+.text-uppercase {
+  font-size: 14px;
+}
+
+/*** Button Start ***/
+.btn {
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.btn-square {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-sm-square {
+  width: 34px;
+  height: 34px;
+}
+
+.btn-md-square {
+  width: 44px;
+  height: 44px;
+}
+
+.btn-lg-square {
+  width: 60px;
+  height: 60px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-md-square,
+.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+}
+
+.link-hover {
+  transition: 0.5s;
+}
+
+.link-hover:hover {
+  color: white !important;
+}
+
+.cart-size {
+  font-size: 30px;
+}
+
+.cart-hover {
+  text-align: end;
+  width: 100px;
+  color: #463a44;
+  transition: 0.5s;
+}
+
+.cart-hover:hover {
+  color: #f795bd;
+}
+
+.img-zoomin {
+  transition: 0.5s;
+}
+
+.img-zoomin:hover {
+  transform: scale(1.1);
+}
+
+.card-body.btn {
+  font-size: small;
+  border-radius: 100px;
+  transition: opacity 0.3s; /* Add a transition for smooth animation */
+}
+
+.btn:hover {
+  /* Reduce opacity on hover */
+  background-color: transparent;
+  color: black;
+}
+
+/*** Topbar Start ***/
+.sticky-top {
+  transition: 0.5s;
+  background: var(--bs-white);
+}
+
+.topbar {
+  padding: 10px 0;
+}
+
+.topbar.top-info {
+  font-family: century gothic;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.topbar.top-link {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1400px) {
+  .sticky-top.top-link {
+    display: none;
+  }
+}
+
+.topbar.top-link a {
+  font-size: medium;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.topbar.top-link a small:hover {
+  color: var(--bs-secondary) !important;
+  transition: 0.5s;
+}
+
+.topbar.top-link a small:hover i {
+  color: var(--bs-primary) !important;
+}
+
+#note {
+  position: relative;
+  animation: noteAnimate 10s infinite;
+  animation-timing-function: ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes noteAnimate {
+  from {
+    left: -735px;
+  }
+  to {
+    left: 735px;
+  }
+}
+
+iframe {
+  aspect-ratio: 16 / 9;
+  width: 100% !important;
+}
+
+/*** Topbar End ***/
+
+/*** Navbar Start ***/
+.navbar .navbar-nav .nav-link {
+  padding: 10px 15px;
+  font-weight: 400;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: #f795bd;
+}
+
+.navbar .dropdown-toggle::after {
+  border: none;
+  font-family: century gothic;
+  font-weight: 700;
+  content: "\f107";
+  font-weight: 700;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+@media (min-width: 1200px) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    top: 100%;
+    font-weight: 400;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+    border: 0;
+    transition: 0.5s;
+    opacity: 0;
+  }
+}
+
+.dropdown .dropdown-menu a:hover {
+  background: transparent;
+  color: #f795bd;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+  transform: rotateX(0deg);
+  visibility: visible;
+  background: var(--bs-light) !important;
+  border-radius: 10px !important;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+@media (min-width: 1200px) {
+  .navbar .navbar-collapse .border-top {
+    border-top: none !important;
+  }
+}
+
+#searchModal .modal-content {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/*** Navbar End ***/
+
+/*** Features Start ***/
+.features {
+  width: 100%;
+  background: linear-gradient(rgba(26, 125, 255, 0.5), rgba(255, 255, 255, 0.3)),
+    url(../img/features-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*** Features End ***/
+
+/*** Top News Start ***/
+.news-2 h3::before {
+  content: "";
+  line-height: 1.3rem;
+  background: var(--bs-secondary);
+  position: absolute;
+  width: 68%;
+  height: 1px;
+  right: 0;
+  opacity: 0.2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.h3:hover {
+  color: blue;
+}
+
+.h6:hover {
+  color: blue;
+}
+
+.list-unstyled .img {
+  height: 1%;
+  width: 1%;
+}
+
+/*** Top News End ***/
+
+/*** CAROUSEL ***/
+.align-right {
+  float: right;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0rgba (22, 22, 26, 0.18);
+  border-radius: 0;
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+
+.carousel-item {
+  overflow: hidden;
+}
+
+.card-body {
+  text-align: justify;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+}
+
+/*** CAROUSEL END ***/
+
+/* Breadcrumbs */
+
+.breadcrumb {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.breadcrumb-item {
+  color: #666;
+  font-size: 14px;
+}
+
+.breadcrumb-item a {
+  color: #f795bd;
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  font-weight: bold;
+}
+
+.breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 5px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f015";
+}
+
+.breadcrumb-item:nth-child(2)::before {
+  content: "\f0c1";
+}
+
+.welcome {
+  color: #f795bd;
+}
+
+.btn-color {
+  color: #463a44;
+}
+
+.icon-color {
+  color: #d2a9e3;
+}
